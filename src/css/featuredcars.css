@@ -1,0 +1,72 @@
+.containerf {
+    text-align: center;
+    padding: 60px 22px;
+    background: #f3f3f3;
+}
+
+.headline-container h2,
+.headline-container p {
+    margin: 0 auto;
+    max-width: 480px;
+}
+
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.car-grid .car-item {
+    position: relative;
+    width: calc(33.33% - 30px);
+    margin-bottom: 30px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.car-grid .car-item aside {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-grid .car-item .number {
+    background: #0d3360;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.car-grid .car-item .title {
+    font-family: "Proxima Nova Bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+@media screen and (min-width: 768px) {
+    .car-grid .car-item {
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .containerf {
+        padding: 80px 30px;
+    }
+    
+    .car-grid .car-item {
+        width: calc(25% - 30px);
+    }
+    
+    .car-grid .car-item aside {
+        padding: 20px;
+    }
+}

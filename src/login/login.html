@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/WheelRealm-website/src/css/login.css">
+    <link rel="stylesheet" href="/WheelRealm-website/src/css/sitenav.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div class="mt-5" style ={{ marginTop: '100px' }} >
+
+
+
+                <div class='login-form-container'>
+                   
+                    <span  id="close-login-form" class="fas fa-times"></span>
+        
+                
+                    <form>
+    
+                        <h3>user login</h3>
+                        <input  name="email" type="email" placeholder="email" class="box" />
+                        <input name="password" type="password" placeholder="password" class="box" />
+                        <p> forget your password <Link href="#">click here</Link> </p>
+                        <input type="submit" value="login" class="btn" />
+                        <p>or login with</p>
+                        <div class="buttons">
+                            <button 
+                             onClick={handleGoogleSignIn}
+                            
+                            href="#" class="btn"> google </button>
+                            <button href="#" class="btn"> facebook </button>
+                        </div>
+                        <p> "don't have an account" <a href="">create One</a> </p>
+    
+
+    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
