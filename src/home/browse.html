@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse Cars</title>
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/featurecar.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/banner.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/browse.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/footer.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/icontainer.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/index.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/sitenav.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/subcribe.css">
-    <link rel="stylesheet" href="/WheelRealm-website/src/css/login.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <link rel="stylesheet" href="/src/css/banner.css">
+    <link rel="stylesheet" href="/src/css/browse.css">
+  
+
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/sitenav.css">
+    <link rel="stylesheet" href="/src/css/subcribe.css">
+    <link rel="stylesheet" href="/src/css/login.css">
 
 
 </head>
 <body>
     <div id="root">
         <div class="">
-            <div>
+            <section>
                 <header  class="header " >
                     <div id="menu-btn" class="fa-bars"></div>
                     <a href="#" class="logo ItemLink">
@@ -27,7 +27,7 @@
                     </a>
                             
                      <nav class="navbar">
-                        <a class="ItemLink" href=""> HOME</a>
+                        <a class="ItemLink" href="/src/home/index.html"> HOME</a>
                         <a class="ItemLink" href="">BROWSE CARS</a>
                         <a class="ItemLink" href=""> FINANCING</a>
                         <a class="ItemLink" href=""> ABOUT US</a>
@@ -45,51 +45,98 @@
                             <i class="far far-user"> </i>
                         </div>          
                     </a>
-                        
-                        
-            
                 </header>
-            </div>
-            <div>
-                <div>
-                    <section class="featured" id="featured">
+            </section>
+                
+            
+            <section class="">
+                <div class="grid-container">
 
-                        <h1 class="heading"> <span>featured</span> cars </h1>
-                        
-                        <div class="swiper featured-slider">
-                        
-                           <div class="swiper-wrapper row">
-                        
-                                <div class="swiper-slide box col-md-4 shadow p-2">
-                                    <img src=" https://i.ibb.co/rbkhNhM/car-2.png" alt=""/>
-                                    <div class="content">
-                                        <h3>new model</h3>
-                                        <div class="price">$55,000/-</div>
-                                        <a href="#" class="btn">check out</a>
-                                    </div>
-                                </div>
-                        
-                                <div class="swiper-slide box col-md-4 shadow p-2">
-                                    <img src="/WheelRealm-website/src/img/">
-                                    <div class="content">
-                                        <h3>new model</h3>
-                                        <div class="price">$55,000/-</div>
-                                        <a href="#" class="btn">check out</a>
-                                    </div>
-                                </div>
-                        
-                                <div class="swiper-slide box col-md-4 shadow p-2 ">
-                                    <img src="https://i.ibb.co/cCKLDvz/car-4.png" alt=""/>
-                                    <div class="content">
-                                        <h3>new model</h3>
-                                        <div class="price">$55,000/-</div>
-                                        <a href="#" class="btn">check out</a>
-                                    </div>
-                                </div>                       
-                           </div>
-                        </div>                
-                    </section>
-            </div>
+                    <div class="grid-item">
+                      <img src="/src/img/2021 cadilac.webp" alt="Description">
+                      <div class="content">
+                          <h2 style="color:blue;">2021 Cadillac XT6 Premium Luxury</h3>
+                          <h3 class="price">$55,000/28K mi</h3>
+                          <a href="#" class="btn">view Details</Details></a>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="/src/img/2018 jeep.webp" alt="Description">
+                        <div class="content">
+                            <h2 style="color:blue;">2018 Jeep Compass Latitude</h3>
+                            <h3 class="price">$55,000/28K mi</h3>
+                            <a href="#" class="btn">view Details</Details></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="/src/img/2022 Ram 1500 Bighorn.webp" alt="Description">
+                        <div class="content">
+                            <h2 style="color:blue;">2022 Ram 1500 Bighorn</h3>
+                            <h3 class="price">$55,000/28K mi</h3>
+                            <a href="#" class="btn">view Details</Details></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="/src/img/2022 Kia Carnival LX.webp" alt="Description">
+                        <div class="content">
+                            <h2 style="color:blue;">2022 Kia Carnival LX2022 Kia Carnival LX</h3>
+                            <h3 class="price">$55,000/28K mi</h3>
+                            <a href="#" class="btn">view Details</Details></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="/src/img/2020 Lexus UX 250h.webp" alt="Description">
+                        <div class="content">
+                            <h2 style="color:blue;">2020 Lexus UX 250h</h3>
+                            <h3 class="price">$55,000/28K mi</h3>
+                            <a href="#" class="btn">view Details</Details></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="/src/img/2020 Audi Q3 Premium.webp" alt="Description">
+                        <div class="content">
+                            <h2 style="color:blue;">2020 Audi Q3 Premium</h3>
+                            <h3 class="price">$55,000/28K mi</h3>
+                            <a href="#" class="btn">view Details</Details></a>
+                        </div>
+                      </div>
+                </div>
+              
+            </section>
+            
+            <section class="footer" id="footer">
+
+                    <div class="box-container">
+                    
+                        <div class="box">
+                            <h3>our branches</h3>
+
+                            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </A>
+                        </div>
+                    
+                       
+                        <div class="box">
+                            <h3>contact info</h3>
+                            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                            <a href="#"> <i class="fas fa-envelope"></i> ako2@hood.edu</a>
+                            <a href="#"> <i class="fas fa-map-marker-alt"></i>Frederick,MD, 21701 </a>
+                        </div>
+                    
+                        <div class="box">
+                            <h3>contact info</h3>
+                            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+                        </div>
+                    
+                    </div>
+                    
+                        <div class="credit shadow"> Kwame Abayie Opuni</div>
+                    
+            </section>
+           
         </div>
     </div>
         

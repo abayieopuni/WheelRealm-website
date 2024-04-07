@@ -1,38 +1,24 @@
-/* Reset some basic elements for consistency */
-#browseCarsMenu {
-    display: none; /* Initially hidden */
-    position: absolute;
-    background-color: #f9f9f9;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* This creates three columns */
+    grid-gap: 20px; /* This adds space between the grid items */
     padding: 20px;
-    width: 300px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
+    margin-top: 100px;
+  }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.form-group select, .form-group input, .btn {
-    width: 100%;
+  .grid-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
     padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+    text-align: center;
+  }
 
-.btn {
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-}
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
 
-.btn:hover {
-    background-color: #555;
-}
-
-/* Toggle
+  .caption {
+    margin-top: 5px;
+    font-weight: bold;
+  }
