@@ -149,8 +149,10 @@ li{list-style: none;}
     .nav2{
         display: block;
     }
-    #menu-btn.fa-times{
-        transform: rotate(180deg);
+    #menu-btn{
+      transform: rotate(180deg);
+      display: block;
+      cursor: pointer;
     }
     #login-btn i{
       

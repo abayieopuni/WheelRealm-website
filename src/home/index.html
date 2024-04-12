@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name=" viewport"  content="width=device-width">
     <link rel="icon" sizes="16 x 16" href="/src/img/lono2.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>WheelRealm - Beyond the Drive</title>
     <link rel="stylesheet" href="/src/css/footer.css">
     <link rel="stylesheet" href="/src/css/banner.css">
@@ -14,8 +15,6 @@
     <link rel="stylesheet" href="/src/css/sitenav.css">
     <link rel="stylesheet" href="/src/css/subcribe.css">
     <link rel="stylesheet" href="/src/css/login.css">
-
-
 </head>
 <body>
     <div id="root">
@@ -35,7 +34,6 @@
                             <a class="ItemLink" href=""> FINANCING</a>
                             <a class="ItemLink" href=""> ABOUT US</a>
                             <a class="ItemLink" href=""> CONTACT</a>
-                            <a class="ItemLink" href="/WheelRealm-website/src/login/login.html"> LOGIN</a>
                             <a class="ItemLink" href=""> </a>
 
                          </nav>
@@ -44,7 +42,7 @@
                         
                         <a href="/src/home/login.html" >
                             <div id="login-btn">
-                                <button class="btn">login</button>
+                                <button class="btn">login/Sign up</button>
                                 <i class="far far-user"> </i>
                             </div>          
                         </a>
@@ -98,44 +96,51 @@
                     </section>
                 </div>
                 <div>
-                    <section class="featured" id="featured">
+                  <section class="featured" id="featured">
+                      <h1 class="heading"> <span>featured</span> cars </h1>
 
-                        <h1 class="heading"> <span>featured</span> cars </h1>
-                        
-                        <div class="swiper featured-slider">
-                        
-                           <div class="swiper-wrapper row">
-                        
-                                <div class="swiper-slide box col-md-4 shadow p-2">
-                                    <img src=" https://i.ibb.co/rbkhNhM/car-2.png" alt=""/>
-                                    <div class="content">
-                                        <h3>new model</h3>
-                                        <div class="price">$55,000/-</div>
-                                        <a href="#" class="btn">check out</a>
-                                    </div>
-                                </div>
-                        
-                                <div class="swiper-slide box col-md-4 shadow p-2">
-                                    <img src="/WheelRealm-website/src/img/">
-                                    <div class="content">
-                                        <h3>new model</h3>
-                                        <div class="price">$55,000/-</div>
-                                        <a href="#" class="btn">check out</a>
-                                    </div>
-                                </div>
-                        
-                                <div class="swiper-slide box col-md-4 shadow p-2 ">
-                                    <img src="https://i.ibb.co/cCKLDvz/car-4.png" alt=""/>
-                                    <div class="content">
-                                        <h3>new model</h3>
-                                        <div class="price">$55,000/-</div>
-                                        <a href="#" class="btn">check out</a>
-                                    </div>
-                                </div>                       
-                           </div>
-                        </div>                
-                    </section>
+                      <!-- Swiper -->
+                      <div class="swiper featured-slider">
+                          <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                  <img src="https://i.ibb.co/rbkhNhM/car-2.png" alt="New Model Car"/>
+                                  <div class="content">
+                                      <h3>New Model</h3>
+                                      <div class="price">$55,000/-</div>
+                                      <a href="#" class="btn">Check Out</a>
+                                  </div>
+                              </div>
+
+                              <div class="swiper-slide">
+                                  <img src="/src/img/2021 cadilac.webp" alt="Placeholder"/>
+                                  <div class="content">
+                                      <h3>New Model</h3>
+                                      <div class="price">$55,000/-</div>
+                                      <a href="#" class="btn">Check Out</a>
+                                  </div>
+                              </div>
+
+                              <div class="swiper-slide">
+                                  <img src="https://i.ibb.co/cCKLDvz/car-4.png" alt="New Model Car"/>
+                                  <div class="content">
+                                      <h3>New Model</h3>
+                                      <div class="price">$55,000/-</div>
+                                      <a href="#" class="btn">Check Out</a>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- If you need pagination -->
+                          <div class="swiper-pagination"></div>
+
+                          <!-- If you need navigation buttons -->
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-button-next"></div>
+                      </div>
+                  </section>
                 </div>
+
                 <div>
                    <section class="subscribe">  
                     <h3>subscribe for latest updates</h3>
@@ -184,5 +189,7 @@
         </div>
 
     </div> 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
